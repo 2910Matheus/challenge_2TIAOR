@@ -96,6 +96,36 @@ Considerando que o projeto está sendo desenvolvido por **um único membro**, to
 | **Documentador(a) / Analista de Requisitos** | Responsável pela elaboração da **Justificativa**, **Estratégia de Dados**, **Plano de Desenvolvimento**, **Handoff** e pela estrutura e clareza do `README.md`. |
 
 ---
+## 3. Diagramas da Solução
+
+Abaixo estão os principais diagramas que representam a estrutura técnica da plataforma YOUVISA, desenvolvidos como parte da Sprint 1 do desafio.
+
+---
+
+### Levantamento de Handoff (UML)
+
+Este diagrama UML representa o fluxo de interação entre os componentes tecnológicos durante o processo de handoff, isto é, a transição do atendimento automatizado (chatbot) para o atendimento humano.
+
+![Diagrama UML](diagrams/diagrama_handoff.png)
+
+---
+
+###  Arquitetura da Solução (C4)
+
+O diagrama C4 contextualiza a plataforma YOUVISA dentro do ecossistema, mostrando como os serviços AWS, canais e sistemas legados se integram.
+
+![Arquitetura da Solução](diagrams/diagrama_arquitetura.png)
+
+---
+
+###  Fluxos de Chatbot (Telegram / WhatsApp)
+
+O diagrama de fluxo abaixo detalha a jornada do usuário no chatbot, desde a identificação da intenção até o handoff para o atendimento humano.
+
+![Fluxo do Chatbot](diagrams/Diagrama_chatbot.png)
+
+---
+
 
  **Resumo:**  
 O projeto adota uma abordagem **incremental e iterativa**, priorizando inicialmente a **documentação e arquitetura** para garantir alinhamento técnico. As próximas etapas focarão na **prototipação**, **integração de canais de comunicação** e **validação das automações**, de forma adaptável ao ritmo de evolução do desenvolvimento.
