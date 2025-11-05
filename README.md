@@ -1,4 +1,4 @@
-#  Justificativa do Problema e Descrição da Solução Proposta (E7)
+#  Justificativa do Problema e Descrição da Solução Proposta
 
 A **YOUVISA**, atuando na otimização de processos de emissão de vistos e serviços consulares, enfrenta o desafio de escalar o atendimento ao cliente, mantendo a qualidade, personalização e segurança dos dados em um ambiente multicanal.  
 A alta demanda por informações e a complexidade dos processos consulares exigem uma solução que vá além do atendimento tradicional, integrando **Inteligência Cognitiva** e **Automação Robótica de Processos (RPA)**.
@@ -14,7 +14,7 @@ O objetivo é criar uma experiência de usuário fluida, onde o atendimento pode
 
 ---
 
-##  2.2. Definição das Tecnologias Utilizadas (E8)
+##  Definição das Tecnologias Utilizadas
 
 A escolha tecnológica visa **escalabilidade, segurança e eficiência** no processamento de dados e linguagem natural.
 
@@ -29,7 +29,7 @@ A escolha tecnológica visa **escalabilidade, segurança e eficiência** no proc
 
 ---
 
-##  2.3. Esboço da Arquitetura da Solução (E9)
+##  Esboço da Arquitetura da Solução
 
 A arquitetura será baseada em **microsserviços serverless** na **AWS**, garantindo alta disponibilidade e escalabilidade.
 
@@ -43,7 +43,7 @@ A arquitetura será baseada em **microsserviços serverless** na **AWS**, garant
 
 ---
 
-##  2.4. Estratégia de Coleta e Tratamento de Dados (E10)
+##  Estratégia de Coleta e Tratamento de Dados
 
 A coleta de dados é fundamental para a **personalização** e **melhoria contínua** do modelo de NLP.
 
@@ -60,7 +60,7 @@ A coleta de dados é fundamental para a **personalização** e **melhoria contí
 
 ---
 
-##  2.5. Estrutura de Encaminhamento para Atendimento Humano (Handoff) (E6)
+##  Estrutura de Encaminhamento para Atendimento Humano (Handoff)
 
 O handoff deve ser um processo **transparente e eficiente** para o usuário.
 
@@ -75,13 +75,28 @@ O usuário será notificado sobre o **tempo de espera** e o **canal de continuid
 
 ---
 
-##  2.6. Plano Inicial de Desenvolvimento e Divisão de Responsabilidades (E11)
+##  Plano de Desenvolvimento (Sprint 1 - Foco em Documentação)
 
-### Plano de Desenvolvimento (Sprint 1 - Foco em Documentação)
+O plano de desenvolvimento foi estruturado para garantir uma **base sólida de documentação e arquitetura**, servindo como ponto de partida para as próximas etapas de implementação e validação técnica.
 
 | Fase | Objetivo | Entregáveis |
 |------|-----------|-------------|
-| **Sprint 1 (Atual)** | Definição do escopo e arquitetura inicial. | Documentação completa (README.md), Diagramas (UML, Arquitetura, Fluxo). |
-| **Sprint 2** | Prova de Conceito (PoC) do Chatbot. | Chatbot funcional (apenas texto) em um canal (Web ou Telegram) com 3 intenções básicas. |
-| **Sprint 3** | Integração de canais e handoff. | Integração com WhatsApp API e fluxo de atendimento humano. |
-| **Sprint 4** | PoC de Visão Computacional e RPA. | Demonstração da validação de um documento simples e execução de uma tarefa RPA básica. |
+| **Sprint 1 (Atual)** | Definição do Escopo e Arquitetura Inicial. | Documentação completa (`README.md`), diagramas de **UML**, **Arquitetura** e **Fluxo**. |
+| **Próximas Fases** | Implementação e Prova de Conceito (PoC). | Desenvolvimento gradual das funcionalidades: **PoC do Chatbot**, **Integração de Canais**, **Handoff** e **PoC de Visão Computacional/RPA**. O número e a duração das sprints serão definidos conforme o progresso do projeto. |
+
+---
+
+##  Divisão de Responsabilidades (Equipe Individual)
+
+Considerando que o projeto está sendo desenvolvido por **um único membro**, todas as responsabilidades **técnicas e de gestão** estão **centralizadas**.
+
+| Papel | Foco Principal |
+|--------|----------------|
+| **Desenvolvedor(a) FullStack / Arquiteto(a)** | Responsável pela concepção da arquitetura, escolha tecnológica, desenvolvimento do core de **NLP/IA**, integração de canais e automação de processos. |
+| **Documentador(a) / Analista de Requisitos** | Responsável pela elaboração da **Justificativa**, **Estratégia de Dados**, **Plano de Desenvolvimento**, **Handoff** e pela estrutura e clareza do `README.md`. |
+
+---
+
+ **Resumo:**  
+O projeto adota uma abordagem **incremental e iterativa**, priorizando inicialmente a **documentação e arquitetura** para garantir alinhamento técnico. As próximas etapas focarão na **prototipação**, **integração de canais de comunicação** e **validação das automações**, de forma adaptável ao ritmo de evolução do desenvolvimento.
+
